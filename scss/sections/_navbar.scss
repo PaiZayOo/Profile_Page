@@ -1,0 +1,13 @@
+@use'../custom' as *;
+@use'../components/mixing' as *;
+
+.menu{
+    @include gradient;
+    
+    a{
+        color : $white;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 1.2rem;
+    }
+}
