@@ -6,11 +6,12 @@
         display: none;
     }
     padding: 1.2rem 4.9rem 1.2rem 2rem;
-    border: none;
+    border: 0.1rem solid rgba($white, 0.6);
     background-color: $white;
     color: $black;
     font-weight: 700;
     position: relative;
+    display: block;
     
 
     span{

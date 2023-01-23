@@ -1,0 +1,19 @@
+@use'../custom' as *;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.display-2{
+    margin-bottom: 2.5rem;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+
+    &--intro{
+        font-weight: 800;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &--description{
+        display: block;
+        font-size: 2.1rem;
+    }
+}
