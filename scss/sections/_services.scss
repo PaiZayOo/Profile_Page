@@ -1,0 +1,7 @@
+@use'../custom' as *;
+
+.service-logo{
+    color: $primary;
+    font-size: 3rem;
+    display: block;
+}

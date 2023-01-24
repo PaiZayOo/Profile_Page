@@ -37,3 +37,23 @@
     margin-bottom: 1rem;
     background-color: $primary;
 }
+
+.border-right{
+    border-right: 0.1rem solid $gray-300;
+    height: 100%;
+}
+
+.display-3{
+    font-family: 'Roboto', sans-serif;
+
+    &__title{
+        font-size: 1.8rem;
+        font-weight: 500;
+        display: inline-block;
+        background-image: linear-gradient(to right,$primary,$secondary);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+}
