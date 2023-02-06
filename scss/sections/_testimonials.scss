@@ -1,0 +1,30 @@
+@use'../custom' as *;
+@use'../components/mixing' as *;
+
+#testimonials{
+    position: relative;
+    @include gradient;
+
+    .carouselCard{
+        background-color: rgba($color: white, $alpha: 0.8);
+        padding: 2rem 1.3rem;
+        height: auto;
+        text-align: center;
+    }
+
+    i{
+        color: rgba($primary,0.8);
+    }
+
+    .clientImg{
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .name{
+        margin-top: 60px;
+    }
+}
