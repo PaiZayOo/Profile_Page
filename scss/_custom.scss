@@ -30,8 +30,14 @@ $accordion-padding-y:                     1.7rem;
 $accordion-padding-x:                     2rem;
 
 
+.pp-img{
+    height: 350px;
+    width: 100%;
+}
+
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import '../node_modules/bootstrap-icons/font/bootstrap-icons.scss';
+@import '../node_modules/imagehover.css/scss/imagehover.scss'
 
 
